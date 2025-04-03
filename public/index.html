@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Block Runner</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="loginScreen">
+    <h2>Login</h2>
+    <form id="loginForm">
+      <input type="text" id="username" placeholder="Nick" required>
+      <input type="password" id="password" placeholder="Senha" required>
+      <button type="submit">Entrar</button>
+    </form>
+    <h3>Ou registre-se</h3>
+    <form id="registerForm">
+      <input type="text" id="regUsername" placeholder="Nick" required>
+      <input type="password" id="regPassword" placeholder="Senha" required>
+      <button type="submit">Registrar</button>
+    </form>
+  </div>
+  <div id="gameScreen">
+    <div id="statusContainer">
+      <h2 id="welcomeMsg"></h2>
+      <p id="coinDisplay">Moedas: 0</p>
+      <p id="scoreDisplay">Score: 0</p>
+    </div>
+    <canvas id="gameCanvas" width="800" height="300"></canvas>
+  </div>
+  <div id="gameOverScreen">
+    <h2>Game Over!</h2>
+    <p id="finalScore"></p>
+    <p id="finalCoins"></p>
+    <button onclick="restartGame()">Reiniciar</button>
+    <button onclick="openShop()">Loja</button>
+    <button onclick="openInventory()">Inventário</button>
+  </div>
+  <div id="shopScreen">
+  </div>
+  <div id="inventoryScreen">
+    <h2>Inventário</h2>
+    <ul id="inventoryList"></ul>
+    <button onclick="closeInventory()">Fechar Inventário</button>
+  </div>
+  <script src="index.js" defer></script>
+
+  </script>
+</body>
+</html>
