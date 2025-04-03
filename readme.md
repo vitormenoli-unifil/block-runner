@@ -2,6 +2,8 @@
 
 Block Runner é um jogo de plataforma simples e viciante onde os jogadores controlam um personagem que precisa desviar de obstáculos e coletar moedas para aumentar sua pontuação. 
 
+> Jogo Disponível em: https://block-runner.vercel.app/
+
 ## Como Funciona
 - O jogador assume o controle de um herói que corre automaticamente pelo cenário.
 - O objetivo é evitar os obstáculos pulando no momento certo e coletar o maior número possível de moedas.
